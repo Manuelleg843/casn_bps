@@ -111,14 +111,15 @@
       <h1>Informasi Seleksi <span>CASN BPS</span> Tahun <span>2024</span></h1>
       <h2>Seleksi Pengadaan Calon Aparatur Sipil Negara Badan Pusat Statistik</h2>
       <div class="d-flex">
-        <a class="btn-2024-cpns scrollto" href="#dokumen" data-tab="cpns-tab">CPNS</a>&nbsp;&nbsp;
-        <a class="btn-2024-cpns scrollto" href="#dokumen" data-tab="pppk-tab">PPPK</a>&nbsp;&nbsp;
+        <a class="btn-2024 scrollto" href="#dokumen" data-tab="cpns-tab">CPNS</a>&nbsp;&nbsp;
+        <a class="btn-2024 scrollto" href="#dokumen" data-tab="pppk-tab">PPPK</a>&nbsp;&nbsp;
         <!--<a href="2023" class="btn-2023 scrollto" target="_blank" rel="noopener noreferrer">2023&nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>&nbsp;&nbsp;-->
         <!--<a href="2022" class="btn-2022 scrollto" target="_blank" rel="noopener noreferrer">2022&nbsp;&nbsp;<i class="bi bi-box-arrow-up-right"></i></a>-->
         <a href="https://www.youtube.com/watch?v=q9BYxUJ-4z4" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Apa itu BPS?</span></a>
       </div>
     </div>
-  </section><!-- End Beranda -->
+  </section>
+  <!-- End Beranda -->
 
   <main id="main">
 
