@@ -145,7 +145,7 @@
           <div class="tab-pane fade show active" id="cpnstab" role="tabpanel" aria-labelledby="cpns-tab">
             <div class="row">
 
-              <table class="announcement-table"> <!-- style="margin-top: 10pt"-->
+              <table class="announcement-table" id="cpnsTable"> <!-- style="margin-top: 10pt"-->
                 <thead>
                   <tr>
                     <th>#</th>
@@ -155,73 +155,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td><a href="assets/docs/01-S-Instansi-Jadwal-Seleksi-CPNS-Tahun-2024.pdf" target="_blank" rel="noopener noreferrer">Jadwal Seleksi Pengadaan CPNS TA 2024</a></td>
-                    <td>Jadwal Seleksi Pengadaan Calon Pegawai Negeri Sipil (CPNS) Tahun Anggaran 2024</td>
-                    <td>13 Agustus 2024</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>
-                      <a href="assets/docs/02-B-5-Pengumuman-Seleksi-Pengadaan-CPNS-di-Lingkungan-BPS-T.A.2024.pdf" target="_blank" rel="noopener noreferrer">Pengumuman Seleksi Pengadaan CPNS-BPS TA 2024</a><br /><br />
-                      <a href="assets/docs/Lampiran-1-Rincian-Alokasi-Kebutuhan-CPNS-di-Lingkungan-BPS-T.A.2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran 1 - Rincian Alokasi Kebutuhan CPNS-BPS TA 2024</a><br />
-                      <a href="assets/docs/Lampiran-2-Format-Surat-Lamaran-Seleksi-CPNS-di-Lingkungan-BPS-T.A.2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran 2 - Format Surat Lamaran Seleksi CPNS-BPS TA 2024</a><br />
-                      <a href="assets/docs/Lampiran-3-Format-Surat-Pernyataan-Seleksi-CPNS-di-Lingkungan-BPS-T.A.-2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran 3 - Format Surat Pernyataan Seleksi CPNS-BPS TA 2024</a><br />
-                    </td>
-                    <td>Pengumuman Seleksi Pengadaan CPNS di Lingkungan BPS Tahun Anggaran 2024</td>
-                    <td>19 Agustus 2024</td>
-                  </tr>
-                  <tr>
-                    <td>3</td>
-                    <td><a href="assets/docs/SE_Dirjen_Nakes_No_570_Tahun_2024_ttg_Persyaratan_Kualifikasi_Pendidikan.pdf" target="_blank" rel="noopener noreferrer">Surat Edaran Direktur Jenderal Tenaga Kesehatan Kementerian Kesehatan Nomor PT.01.03/F/570/2024 Tanggal 23 Maret 2024</a></td>
-                    <td>Persyaratan Kualifikasi Pendidikan dan Surat Tanda Registrasi dalam Rangka Pengadaan Calon Aparatur Sipil Negara Jabatan Fungsional Kesehatan Tahun 2024</td>
-                    <td>23 Maret 2024</td>
-                  </tr>
-                  <tr>
-                    <td>4</td>
-                    <td><a href="assets/docs/Surat-Plt-Kepala-BKN-Penyesuaian-Jadwal-Seleksi-Pengadaan-CPNS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Penyesuaian Jadwal Seleksi Pengadaan CPNS TA 2024</a></td>
-                    <td>Surat PLT Kepala BKN tentang Penyesuaian Jadwal Seleksi Pengadaan CPNS Tahun Anggaran 2024</td>
-                    <td>5 September 2024</td>
-                  </tr>
-                  <tr>
-                    <td>5</td>
-                    <td><a href="assets/docs/B-7-Pengumuman-Penyesuaian-Jadwal-Seleksi-Pengadaan-CPNS-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Pengumuman Penyesuaian Jadwal Seleksi Pengadaan CPNS-BPS TA 2024</a></td>
-                    <td>Pengumuman Penyesuaian Jadwal Seleksi Pengadaan CPNS-BPS Tahun Anggaran 2024</td>
-                    <td>5 September 2024</td>
-                  </tr>
-                  <tr>
-                    <td>6</td>
-                    <td><a href="assets/docs/Penggunaan-Meterai-pada-Pendaftaran-Seleksi-CPNS-TA-2024-DS.pdf" target="_blank" rel="noopener noreferrer">Penggunaan Meterai Pada Pendaftaran Seleksi CPNS TA 2024</a></td>
-                    <td>Surat Deputi Bidang Sistem Informasi Kepegawaian tentang Penggunaan Meterai pada Pendaftaran Seleksi CPNS Tahun Anggaran 2024</td>
-                    <td>5 September 2024</td>
-                  </tr>
-                  <tr>
-                    <td>7</td>
-                    <td><a href="assets/docs/B-9-Pengumuman-Penggunaan-Meterai-pada-Pendaftaran-Seleksi-Pengadaan-CPNS-BPS-TA-2024-Signed.pdf" target="_blank" rel="noopener noreferrer">Pengumuman Penggunaan Meterai pada Pendaftaran Seleksi Pengadaan CPNS-BPS TA 2024</a></td>
-                    <td>Pengumuman Penggunaan Meterai pada Pendaftaran Seleksi Pengadaan CPNS-BPS Tahun Anggaran 2024</td>
-                    <td>6 September 2024</td>
-                  </tr>
-                  <tr>
-                    <td>8</td>
-                    <td>
-                      <a href="assets/docs/B-12-Pengumuman-Hasil-Seleksi-Administrasi-CPNS-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Pengumuman Hasil Seleksi Administrasi CPNS-BPS TA 2024</a><br /><br />
-                      <a href="assets/docs/Lampiran-Pengumuman-Hasil-Seleksi-Administrasi-CPNS-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran Pengumuman Hasil Seleksi Administrasi CPNS-BPS TA 2024</a>
-                    </td>
-                    <td>Pengumuman Hasil Seleksi Administrasi CPNS-BPS Tahun Anggaran 2024</td>
-                    <td>19 September 2024</td>
-                  </tr>
-                  <tr>
-                    <td>9</td>
-                    <td>
-                      <a href="assets/docs/B-15-Pengumuman-Seleksi-Administrasi-Pasca-Sanggah-CPNS-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Pengumuman Seleksi Administrasi Pasca Sanggah CPNS-BPS TA 2024</a><br /><br />
-                      <a href="assets/docs/Lampiran-Pengumuman-Hasil-Seleksi-Administrasi-Pasca-Sanggah-CPNS-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran Pengumuman Seleksi Administrasi Pasca Sanggah CPNS-BPS TA 2024</a>
-                    </td>
-                    <td>Pengumuman Seleksi Administrasi Pasca Sanggah CPNS-BPS Tahun Anggaran 2024</td>
-                    <td>27 September 2024</td>
-                  </tr>
                   <!--add row table here -->
-
                 </tbody>
               </table>
 
@@ -231,7 +165,7 @@
             <div class="row">
 
               <!--<p><br /><em>Dokumen pengumuman untuk PPPK BPS Tahun 2024 akan segera ditambahkan.</em></p>-->
-              <table class="announcement-table"> <!-- style="margin-top: 10pt"-->
+              <table class="announcement-table" id="pppkTable"> <!-- style="margin-top: 10pt"-->
                 <thead>
                   <tr>
                     <th>#</th>
@@ -241,26 +175,7 @@
                   </tr>
                 </thead>
                 <tbody>
-                  <tr>
-                    <td>1</td>
-                    <td><a href="assets/docs/pppk/S-Instansi-Jadwal-Seleksi-Pengadaan-PPPK-TA-2024-(DS).pdf" target="_blank" rel="noopener noreferrer">Jadwal Seleksi Pengadaan PPPK TA 2024</a></td>
-                    <td>Jadwal Seleksi Pengadaan Pegawai Pemerintah dengan Perjanjian Kerja (PPPK) Tahun Anggaran 2024</td>
-                    <td>28 September 2024</td>
-                  </tr>
-                  <tr>
-                    <td>2</td>
-                    <td>
-                      <a href="assets/docs/pppk/B-17-Pengumuman-Seleksi-Pengadaan-Pegawai-Pemerintah-dengan-Perjanjian-Kerja-di-Lingkungan-Badan-Pusat-Statistik-Tahun-Anggaran-2024-rev.pdf" target="_blank" rel="noopener noreferrer">Pengumuman Seleksi Pengadaan Pegawai Pemerintah dengan Perjanjian Kerja di Lingkungan Badan Pusat Statistik Tahun Anggaran 2024</a><br /><br />
-                      <a href="assets/docs/pppk/Lampiran-1-Rincian-Alokasi-Kebutuhan-PPPK-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran 1 - Rincian Alokasi Kebutuhan PPPK BPS TA 2024</a><br />
-                      <a href="assets/docs/pppk/Lampiran-2-Format-Surat-Lamaran-Seleksi-PPPK-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran 2 - Format Surat Lamaran Seleksi PPPK BPS TA 2024</a><br />
-                      <a href="assets/docs/pppk/Lampiran-3-Format-Surat-Pernyataan-Seleksi-PPPK-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran 3 - Format Surat Pernyataan Seleksi PPPK BPS TA 2024</a><br />
-                      <a href="assets/docs/pppk/Lampiran-4-Format-Surat-keterangan-Bekerja-PPPK-BPS-TA-2024.pdf" target="_blank" rel="noopener noreferrer">Lampiran 4 - Format Surat keterangan Bekerja PPPK BPS TA 2024</a><br />
-                    </td>
-                    <td>Pengumuman Seleksi Pengadaan Pegawai Pemerintah dengan Perjanjian Kerja di Lingkungan Badan Pusat Statistik Tahun Anggaran 2024</td>
-                    <td>30 September 2024</td>
-                  </tr>
                   <!--add row table here -->
-
                 </tbody>
               </table>
 
@@ -364,6 +279,8 @@
   <script src="<?= base_url('/assets/vendor/swiper/swiper-bundle.min.js'); ?>"></script>
   <script src="<?= base_url('/assets/vendor/waypoints/noframework.waypoints.js'); ?>"></script>
   <script src="<?= base_url('/assets/vendor/php-email-form/validate.js'); ?>"></script>
+  <script src="<?= base_url('/assets/vendor/jquery/jquery-3.6.0.min.js'); ?>"></script>
+  <script src="<?= base_url('/assets/vendor/showdown/showdown.min.js'); ?>"></script>
 
   <!-- Template Main JS File -->
   <script src="<?= base_url('/assets/js/main.js'); ?>"></script>
@@ -422,7 +339,7 @@
 
     // JavaScript to load the FAQ content dynamically
     document.addEventListener('DOMContentLoaded', function() {
-      fetch('assets/pages/faq.html')
+      fetch('assets/pages/faq-new.html')
         .then(response => response.text())
         .then(data => {
           document.getElementById('faq-container').innerHTML = data;
@@ -430,6 +347,10 @@
         .catch(error => console.error('Error loading FAQ:', error));
     });
   </script>
+
+  <!-- Fetch Data JS File -->
+  <script src="<?= base_url('/assets/js/dokumen.js'); ?>"></script>
+  <script src="<?= base_url('/assets/js/faq.js'); ?>"></script>
 
 </body>
 
