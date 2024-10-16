@@ -5,7 +5,6 @@ $(document).ready(function () {
         type: "GET",
         dataType: "json",
         success: function (response) {
-            console.log(response);
             let list = '';
             let no = 1;
             $.each(response, function (key, value) {
@@ -18,6 +17,45 @@ $(document).ready(function () {
                         </li>`;
             });
             $('#faq-list li').html(list);
+        },
+        error: function (xhr, status, error) {
+            console.error(xhr.responseText);
+        }
+    });
+});
+
+$(document).ready(function () {
+    $.ajax({
+        url: "/faq/fetch",
+        type: "GET",
+        dataType: "json",
+        success: function (response) {
+            let rows = '';
+            let no = 1;
+            $.each(response, function (key, value) {
+                rows += `<tr>
+                        <td>${no++}</td>
+                        <td>${value.question}</td>
+                        <td>${value.answer}</td>
+                        <td>${value.category}</td>
+                        <td>` +
+                    (() => {
+                        if (value.is_active == 1) {
+                            return `<span class="badge bg-success">Active</span>`;
+                        } else {
+                            return `<span class="badge bg-danger">Inactive</span>`;
+                        }
+                    })()
+                    + `</td>
+                        <td style="min-width: 110px;">
+                        <div class="d-flex justify-content-between">
+                        <a href="/edit_announcements/${value.id}" type="button" class="btn btn-primary"><i class="bi bi-pencil"></i></a>
+                        <a href="/delete_announcements/${value.id}" type="button" class="btn btn-danger"><i class="bi bi-trash"></i></a>
+                        </div>
+                        </td>
+                        </tr>`;
+            });
+            $('#faqTableAdmin tbody').html(rows);
         },
         error: function (xhr, status, error) {
             console.error(xhr.responseText);

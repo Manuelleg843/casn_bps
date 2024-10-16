@@ -17,6 +17,7 @@ class DocumentsModel extends Model
         'description',
         'file_path',
         'publish_date',
+        'announcement_id',
         'category',
         'document_type',
     ];

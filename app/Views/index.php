@@ -74,7 +74,7 @@
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <h1 class="logo"><a href="index.html">CASN<span>.</span>BPS<sup class="sup-logo">2024</sup></a></h1>
+      <h1 class="logo"><a href="<?= base_url('/'); ?>">CASN<span>.</span>BPS<sup class="sup-logo">2024</sup></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
@@ -269,6 +269,10 @@
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <script>
+    const base_url = '<?= base_url('/'); ?>';
+  </script>
 
   <!-- Vendor JS Files -->
   <script src="<?= base_url('/assets/vendor/purecounter/purecounter_vanilla.js'); ?>"></script>

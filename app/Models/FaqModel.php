@@ -16,6 +16,7 @@ class FaqModel extends Model
         'id',
         'question',
         'answer',
+        'category',
         'is_active',
     ];
 
@@ -49,13 +50,13 @@ class FaqModel extends Model
     {
         if ($category) {
             $builder = $this->db->table($this->table)
-                ->select('faq.id, faq.question, faq.answer, faq.is_active')
+                ->select('faq.id, faq.question, faq.answer, faq.category, faq.is_active')
                 ->where('faq.category', $category)
                 ->where('faq.is_active', $is_active)
                 ->get();
         } else {
             $builder = $this->db->table($this->table)
-                ->select('faq.id, faq.question, faq.answer, faq.is_active')
+                ->select('faq.id, faq.question, faq.answer, faq.category, faq.is_active')
                 ->where('faq.is_active', $is_active)
                 ->get();
         }
