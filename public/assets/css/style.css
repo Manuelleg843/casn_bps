@@ -1901,3 +1901,126 @@ section {
     padding: 2px 0;
   }
 }
+
+/*--------------------------------------------------------------
+# LoginPage
+--------------------------------------------------------------*/
+
+#loginPage *{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+}
+
+#loginPage .body{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/hero-bg.jpg") center; /* top left */
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#loginPage .container{
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: 0 20px;
+}
+
+#loginPage .container .forms{
+  align-items: center;
+  height: 400px;
+  width: 200%;
+}
+
+#loginPage .container .form{
+  padding: 30px;
+  width: 50%;
+  background-color: #fff;
+}
+
+#loginPage .container .form .title{
+  font-size: 27px;
+  font-weight: 600;
+}
+
+
+#loginPage .form .input{
+  position: relative;
+  height: 50px;
+  width: 100%;
+  margin-top: 30px;
+}
+
+#loginPage .input input{ 
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 0 35px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-bottom: 2px solid #ccc;
+  border-top: 2px solid transparent; 
+}
+
+#loginPage .input input:is(:focus, :valid){
+  border-bottom-color: #106eea;
+} 
+
+#loginPage .input input:is(:focus, :valid)~i{
+  color: #106eea;
+}
+
+#loginPage .input i{ 
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #999;
+  font-size: 23px;
+}
+
+#loginPage .form .button{
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  text-align: center;
+  background-color: #4070f4;
+}
+#loginPage .form .button:hover{
+  background-color: #265df2;
+}
+
+#loginPage .form .btn{
+  color: #fff;
+  font-size: 17px;
+  font-weight: 550;
+  letter-spacing: 1px;
+}
+
+
+#loginPage .logo {
+  font-size: 30px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  font-family: "Poppins", sans-serif;
+}
+
+#loginPage .logo a span {
+  color: #106eea;
+}
+
+#loginPage .logo a {
+  color: #222222;
+}

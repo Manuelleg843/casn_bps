@@ -105,7 +105,7 @@
                                                         <textarea class="form-control" id="content" name="content"><?= isset($form_data['content']) ? $form_data['content'] : '' ?></textarea>
                                                     </div>
                                                     <div class="mb-3">
-                                                        <label for="publish_date" class="form-label">Tanggal Upload</label>
+                                                        <label for="publish_date" class="form-label">Tanggal Publish</label>
                                                         <input type="date" value="<?= isset($form_data['publish_date']) ? $form_data['publish_date'] : '' ?>" class="form-control" name="publish_date" id="publish_date" />
                                                     </div>
                                                     <div class="mb-3">

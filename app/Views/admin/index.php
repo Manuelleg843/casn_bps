@@ -13,6 +13,9 @@
     <link href="<?= base_url('/assets/img/favicon.ico'); ?>" rel="icon">
     <link href="<?= base_url('/assets/img/apple-touch-icon.png'); ?>" rel="apple-touch-icon">
 
+    <!-- Feather icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
@@ -45,6 +48,14 @@
     <header id="header" class="d-flex align-items-center">
         <div class="container d-flex align-items-center justify-content-between">
             <h1 class="logo"><a href="<?= base_url('/'); ?>">CASN<span>.</span>BPS<sup class="sup-logo">2024</sup></a></h1>
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false">
+                    <i class="bi bi-person-circle"></i> <?= session('user_username'); ?>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <li><a class="dropdown-item" href="/logout">Logout</a></li>
+                </ul>
+            </div>
         </div>
     </header><!-- End Header -->
 
